@@ -11,7 +11,7 @@ class EventCard extends Component {
     return (
       <Card style = {styles.container}>
         <Image
-          source={{uri: 'http://lorempixel.com/100/50/technics'}}
+          source={{uri: 'http://lorempixel.com/50/50/technics'}}
           style={styles.image}
         />
         <View style = {styles.description}>
@@ -25,7 +25,7 @@ class EventCard extends Component {
 
 const styles = StyleSheet.create({
   image: {
-    width: 100,
+    width: 50,
     height: 50
   },
   container: {
